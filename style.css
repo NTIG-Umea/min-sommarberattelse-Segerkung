@@ -1,11 +1,14 @@
 
 body{
-
+    display: flex;
+    justify-content: center;
 
 }
 
 main {
-    
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 40rem;
 }
 
 h1 {
@@ -14,5 +17,29 @@ h1 {
 
 h2 {
 
+}
 
+video {
+    align-items: center;
+
+}
+
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.svar {
+    color: gray;
+}
+
+img {
+
+    align-content: center;
+    height: 400px;
+    padding-left: 12.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
